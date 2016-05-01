@@ -1,17 +1,18 @@
 var bio = {
-    "name" : "Sean O'Dell",
-    "role" : "Web Developer",
-    "contacts" : {
-        "mobile" : "678-662-8888",
-        "email" : "amsean.odell@gmail.com",
-        "github" : "https://github.com/FurtiveNeptune",
-        "location" : "Atlanta, GA"
+    'name': "Sean O'Dell",
+    'role': "Web Developer",
+    'contacts': {
+        'mobile': "<a href='tel:6786628888'>678.662.8219</a>",
+        'email': "amsean.odell@gmail.com",
+        //'linkedin
+        'github': "<a href=https://github.com/FurtiveNeptune",
+        'location': "<a href='#'>Atlanta, GA</a>"
     }
-    "welcomeMessage": "Welcome to my Resume!",
-    "skills": [
-      "Web Development", "Programming", "JS", "Java", "Cisco Networking"
+    'welcomeMessage': "Welcome to my Resume!",
+    'skills': [
+      'Web Development', "Programming", "JS", "Java", "Cisco Networking"
     ],
-    "bioPic" : "images/neela.jpg",
+    'bioPic': "images/neela.jpg",
 
     display: function() {
         var formattedName = HTMLheaderName.replace("%data%", bio.name);
@@ -23,69 +24,69 @@ var bio = {
 
 
 var education = {
-    "schools": [
+    'schools': [
     {
-        "name": "Alexander High School",
-        "city": "Atlanta, GA, US",
-        "degree": "High School Diploma",
-        "dates": "string",
-        "url": "string",
-        "display": "function"
+        'name': "Alexander High School",
+        'city': "Atlanta, GA, US",
+        'degree': "High School Diploma",
+        'dates': "string",
+        'url': "string",
+        'display': "function"
     }
   ],
-  "onlinecourses": [
+  'onlinecourses': [
     {
-        "title": "Front-End Web Developer",
-        "school": "Udacity",
-        "dates": 2016,
-        "url": "https://www.udacity.com/"
+        'title': "Front-End Web Developer",
+        'school': "Udacity",
+        'dates': 2016,
+        'url': "https://www.udacity.com/"
     }
   ]
 }
 
 var work = {
-    "jobs": [
+    'jobs': [
     {
-        "employer": "Graham Spray Equipment",
-        "title": "Installation Technician",
-        "dates": "February 2015-Present",
-        "description": "Install and repair spray trucks and units."
+        'employer': "Graham Spray Equipment",
+        'title': "Installation Technician",
+        'dates': "February 2015-Present",
+        'description': "Install and repair spray trucks and units."
     },
     {
-        "employer": "Todd Vanvekoven",
-        "title": "Audio/Visual Technician",
-        "dates": "2013-2014"
-        "description": "Install speakers, power boxes, touch screens, and projecters in classrooms for schools across the Atlanta area."
+        'employer': "Todd Vanvekoven",
+        'title': "Audio/Visual Technician",
+        'dates': "2013-2014"
+        'description': "Install speakers, power boxes, touch screens, and projecters in classrooms for schools across the Atlanta area."
 
     }
   ]
 }
 
 var projects = {
-    "projects": [
+    'projects': [
     {
-        "title": "About Me Project",
-        "dates": 2016,
-        "description": "A simple introduction to HTML"
-        "images": [
+        'title': "About Me Project",
+        'dates': 2016,
+        'description': "A simple introduction to HTML"
+        'images': [
             "URLHERE",
             "URLHERE"
       ]
     },
     {
-        "title": "Mockup to Article",
-        "dates": 2016,
-        "description": "Change the existing website to be more responsive and have a clean layout."
-        "images": [
+        'title': "Mockup to Article",
+        'dates': 2016,
+        'description': "Change the existing website to be more responsive and have a clean layout."
+        'images': [
             "URLHERE",
             "URLHERE"
         ]
     },
     {
-        "title": "Portfolio Website",
-        "dates": 2016,
-        "description": "Build a little demo site based off of a mock up provided.",
-        "images":
+        'title': "Portfolio Website",
+        'dates': 2016,
+        'description': "Build a little demo site based off of a mock up provided.",
+        'images':
             "URLHERE",
             "URLHERE"
     }
